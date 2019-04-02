@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-common/pigx-common-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-upms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-upms/pigx-upms-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-upms/pigx-upms-biz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-visual" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-visual/pigx-activiti" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-visual/pigx-codegen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-visual/pigx-daemon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-visual/pigx-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-visual/pigx-sso-client-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pigx-visual/pigx-tx-manager" charset="UTF-8" />
+  </component>
+</project>

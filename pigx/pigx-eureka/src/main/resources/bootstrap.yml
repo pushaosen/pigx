@@ -1,0 +1,34 @@
+server:
+  port: 8761
+
+spring:
+  security:
+    user:
+      name: pig
+      password: pig
+  application:
+    name: @artifactId@
+  cloud:
+    config:
+      enabled: false
+# docker-compose部署时候 hostname 换成pigx-eureka
+# 类似的 redis 使用pigx-redis ,gateway 换成 pigx-gateway
+eureka:
+  instance:
+    hostname: pigx-eureka
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://pig:pig@${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    eviction-interval-timer-in-ms: 4000
+    enable-self-preservation: false
+    renewal-percent-threshold: 0.9
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pigx-activiti" />
+        <module name="pigx-auth" />
+        <module name="pigx-codegen" />
+        <module name="pigx-common-cache" />
+        <module name="pigx-common-core" />
+        <module name="pigx-common-gateway" />
+        <module name="pigx-common-job" />
+        <module name="pigx-common-log" />
+        <module name="pigx-common-security" />
+        <module name="pigx-common-swagger" />
+        <module name="pigx-common-transaction" />
+        <module name="pigx-config" />
+        <module name="pigx-daemon" />
+        <module name="pigx-eureka" />
+        <module name="pigx-gateway" />
+        <module name="pigx-monitor" />
+        <module name="pigx-sso-client-demo" />
+        <module name="pigx-tx-manager" />
+        <module name="pigx-upms-api" />
+        <module name="pigx-upms-biz" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
